@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.stuff {
+    display: flex;
+}
+
+.card {
+	width: 300px;
+	height: 350px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+h1, a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.card img {
+	width: 220px;
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	display: inline-block;
+	width: 220px;
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 2px;
+	text-decoration: none;
+	color: black;
+	background-color:red;
+}
